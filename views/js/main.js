@@ -532,9 +532,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256
   var height=window.innerHeight;
-
+s
   var  numberOfPizzas = (height / s * cols);
-  for (var i = 0; i < 200; i++) {
+  for (var i = 0; i <numberOfPizzas; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
